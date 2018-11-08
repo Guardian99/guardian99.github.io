@@ -1,88 +1,208 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WEBCAST</title>
+    <title>About Me</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="kube.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="custom.min.css" />
+    <link rel="stylesheet" href="links.css">
+    <link rel="shortcut icon" href="p1.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
 </head>
 <body>
-<h1 style="text-align: center;
-	line-height: 1.1;
-	font-weight: normal;
-	color: white;
-	background: steelblue;
-	margin: 0;
-	text-transform: uppercase;
-	padding: 20px 0;
-	font-family: "Montserrat";">IIIT DELHI
-	<br>
-	<span id="teamname" style="font-size: 200%">WEBCAST</span>
-</h1>
 
-<nav class="navbar navbar-default" style="background-color: white;">
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">DRACO</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <!-- <li><a href="#pubs">Publications</a></li> -->
+				        <li><a href="#Projects">Projects</a></li>
+				        <li><a href="#experiences">Work Experience</a></li>
+				        <li><a href="#achievements">Awards</a></li>
+				        <li><a href="#Hobbies">Hobbies and Interests</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
 	
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-			<a href="#" class="navbar-brand">Home</a>
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I am Kanishk!</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-30">
+					<img src="me.jpg" alt="Avatar">
+				</div>
+				<div class="unit-70">
+					<h3><span id="typed">Undergrad @ IIIT Delhi</span></h3>
+				</div>
+				<p>
+					My academic and research interests lie in topics broadly related to facial recognition,security and vulnerabilities in system and social engineering. 
+				</p>
+				<p>For more, check out my <a href="CV.pdf" target="_blank">CV</a>.</p>
+				<p><a href="https://www.facebook.com/kanishk.rana.5" target="_blank"><i class="fa fa-facebook"></i></a> &emsp; <a href="https://www.linkedin.com/in/kanishk-rana-1a5352142/" target="_blank"><i class="fa fa-linkedin"></i></a> &emsp; <a href="https://github.com/Guardian99" target="_blank"><i class="fa fa-github"></i></a> &emsp; <a href="https://www.instagram.com/guess.__.__.who/" target="_blank"><i class="fa fa-instagram"></i></a></p> 
+				<p><i class="fa fa-envelope-o" aria-hidden="true"></i> &ensp; kanishk17241 [at] iiitd [dot] ac [dot] in </p>
+			</div>
 		</div>
+		
+	</div>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<div class="work section second" id="Projects">
+		<div class="container">
+			<h1>Projects</h1>
+			<ul class="work-list">
+				
+				<li><h2>Surveillance System for Detecting Unknown Person</li></h2>
+				<li><b>Kanishk Rana</b></li>
+				<li>Surveillance System created using OpenCV for detection of unknown person and pushing data with timestamps on a website</li>
+			</ul>
+
+			<ul class="work-list">
+				
+				<li><h2>Automatic Bed for Changing Diaper(ABCD-399)</li></h2>
+				<li><b>Kanishk Rana,Ananya Bhatia, Prince Sachdeva, Karan Tandon</b></li>
+				<li>Bed made from wood and mdf sheets for changing diapers automatically by integrating sensors using Arduino and making an app to control the features of the bed</li>
+				<a href="https://www.instructables.com/id/ABCD-399/">Instructable Link</a>
+			</ul>
+
+			<ul class="work-list">
+				
+				<li><h2>Smart Lamp</li></h2>
+				<li><b>Kanishk Rana,Ananya Bhatia, Prince Sachdeva, Karan Tandon</b></li>
+				<li>Smart Lamp made using corrugated sheets with integration of various sensors using Arduino with the lamp having features like Smart Study Mode,Party Mode, Adjustable Light Setting and Focus</li>
+				
+			</ul>
+			<ul class="work-list">
+				
+				<li><h2>AI Tic Tac Toe</li></h2>
+				<li>Kanishk Rana</li>
+				<li>Python Program simulating Tic Tac Toe with strategy made for an AI vs AI game and probabilites of a winning scenario calculated for AI vs Naive and Naive vs Naive game</li>
+			</ul>
+			<ul class="work-list">
+				
+				<li><h2>Snake vs Block Game in Java</li></h2>
+				<li>Kanishk Rana,Pratik Pathak</li>
+				<li>Java Project GUI based Game currently under development</li>
+			</ul>
 			
-			<ul class="nav navbar-nav">
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Recent<b class="caret"></b></a>
-				<ul class="dropdown-menu">
-					<li><a href="#">January </a></li>
-					<li><a href="#">February</a></li>
-					<li><a href="#">March</a></li>
-					<li><a href="#">April</a></li>
-					<li><a href="#">May</a></li>
-					<li><a href="#">June</a></li>
-					<li><a href="#">July</a></li>
-					<li><a href="#">August</a></li>
-					<li><a href="#">September</a></li>
-					<li><a href="#">October</a></li>
-					<li><a href="#">November </a></li>
-					<li><a href="#">December</a></li>
-					
-					
-				</ul>
-            </li>
-			</ul>
+		</div>
+	</div>
 
-			<ul class="nav navbar-nav">
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Archive<b class="caret"></b></a>
-				<ul class="dropdown-menu">
-					<li><a href="#">2017</a></li>
-					<li><a href="#">2016</a></li>
-					
-					<li class="divider"></li>
-					<li><a href="#">Older</a></li>
-					<li class="divider"></li>
-					<li><a href="#">Landmark</a></li>
-				</ul>
-            </li>
+	
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experience</h1>
+			<ul class="work-list">
+				<li>September 2018 - Present</li>
+				<li>Feedough, New Delhi</li>
+				<li>Contributing Writer</li>
 			</ul>
-
-			<ul class="nav navbar-nav navbar-right">
-		  		<li><a href="#">Subscribe to Mails</a></li>
+			<ul class="work-list">
+				<li>May 2018 - July 2018</li>
+				<li>Adarsh Public School</li>
+				<li>Student Teacher for Underpriveledged Children</li>
 			</ul>
 		</div>
-    </div>
-</nav>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</div>
+
+	
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Award &amp;<br>Achievements</h1>
+			
+
+			<ul class="award-list list-flat">
+				
+				<li>2018</li>
+				<li>
+				Recognized and appreciated by the national daily Dainik Jagran for the project ABCD-399</li>
+				<a href="Pub.jpeg" target="_blank">Article Image</a>
+			</ul>
+
+			<ul class="award-list list-flat">
+				
+				<li>2016</li>
+				<li>
+				Won Bronze Medal in 100m Sprint at Zonal Level</li>
+			</ul>
+			
+
+			<ul class="award-list list-flat">
+				
+				<li>2015</li>
+				<li>
+				Cleared first round of KVPY scholarship exam aimed for honoring young scientists of India.</li>
+			</ul>
+
+			<ul class="award-list list-flat">
+				<li>2014</li>
+				<li>
+				Cleared first round of NTSE scholarship exam securing an State Rank of 114 out of 40 thousand candidates.</li>
+			</ul>
+
+			<ul class="award-list list-flat">
+				<li>2014</li>
+				<li>
+				Secured 3rd position out of 200 candidates in Hindi Essay Writing held at Zonal Level.</li>
+			</ul>
+
+			<ul class="award-list list-flat">
+				<li>2014</li>
+				<li>
+				Cleared first round of NTSE scholarship exam securing an State Rank of 114 out of 40 thousand candidates.</li>
+			</ul>
+			
+			<ul class="award-list list-flat">
+				<li>2014</li>
+				<li>Top 1 percent in the nation merit list in International Junior Science Olympiad</li>
+			</ul>
+			
+			<ul class="award-list list-flat">
+				<li>2014</li>
+				<li>Won the Inter-School Football Tournament</li>
+			</ul>
+
+			<ul class="award-list list-flat">
+				<li>2013</li>
+				<li>Secured the prestigious JSTSE scholarship, awarded to brilliant young students across Delhi.</li>
+			</ul>
+			
+			
+		</div>
+	</div>
+
+	
+	<div class="skills section second" id="Hobbies">
+		<div class="container">
+			<h1>Hobbies and Interests<br></h1>
+			<p>I love playing guitar and football.I also try to read novels in my free time with my favourite work being the Shiva Trilogy by Amish Tripathi.I love listening to various genre of music and admire Eric Clapton and David Gilmour. 
+			
+		</div>
+	</div>
+
+	
+
+	<script src="jquery.min.js"></script>
+	<script src="typed.min.js"></script>
+    <script src="kube.min.js"></script>
+    <script src="site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		
+		strings: ["UNDERGRAD @ IIIT DELHI<\a>"],
+
+		typeSpeed:10,backDelay:0,contentType:"html",loop:false,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
 </body>
 </html>
